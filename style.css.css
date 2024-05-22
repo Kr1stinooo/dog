@@ -1,0 +1,83 @@
+header{
+    background-color: rgb(54, 54, 247);/*цвет фона*/
+    height: 100px; /*Высота*/
+    color: aliceblue;/*Цвет текста*/
+    font-size: 30px;/*размер текста*/
+    text-align: center; /*Выравнивание*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-color: rgb(99, 0, 0);/*цвет фона*/
+    height: 100%; /*Высота*/
+    color: aliceblue;/*Цвет текста*/
+    font-size: 20px;/*размер текста*/
+    text-align: center; /*Выравнивание*/
+    padding-top: 50px; /*отступ*/ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    display:flex;
+    justify-content:center ;
+
+}
+
+
+footer{
+    background-color: rgb(12, 113, 180);/*цвет фона*/
+    height: 200px; /*Высота*/
+    color: aliceblue;/*Цвет текста*/
+    font-size: 30px;/*размер текста*/
+     text-align: center; /*Выравнивание*/
+    padding-top: 50px; /*отступ*/ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 75%;
+    margin: 0;
+
+
+}
+
+.block1{
+    background-color: rgb(70, 6, 6);
+    text-align: center;
+}
+
+.block2{
+    padding-top: 5;
+    padding: 20px;
+    text-align: center;
+}
+
+.block3{
+  margin-left: 35%;
+}
+
+footer{
+    background-color: blue;
+    color: aliceblue;
+    padding: center;
+    text-align: center;
+}
+
+.social img {
+    width: 100px;
+    padding-left: 10px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
